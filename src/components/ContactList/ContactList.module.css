@@ -1,0 +1,28 @@
+.contactListSection {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .contactList {
+    display: flex;
+    gap: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+    font-size: 20px;
+    border: 5px outset rgb(238, 235, 235);
+    border-radius: 25px;
+    background-color: rgb(12, 98, 151);
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.51);
+    justify-content: space-between;
+  }
+  
+  .button {
+    background-color: rgba(3, 37, 51, 0.914);
+    border: none;
+    border-radius: 25px;
+    padding: 2px 25px;
+    color: rgb(196, 205, 212);
+    font-size: 15px;
+  }
